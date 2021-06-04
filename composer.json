@@ -1,0 +1,28 @@
+{
+  "name": "axome/axome_git_commits",
+  "description": "Axome - Affichage de commits depuis GitHub",
+
+  "authors": [
+    {
+      "name": "Maxence DOURNEAU",
+      "email": "maxence1dourneau@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.0",
+    "knplabs/github-api": "^3.0",
+    "symfony/http-client": "^5.3",
+    "nyholm/psr7": "^1.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "AxomeGitCommits\\": "src/"
+    }
+  },
+  "config": {
+    "preferred-install": "dist",
+    "prepend-autoloader": false
+  },
+  "type": "prestashop-module",
+  "author": "Maxence DOURNEAU"
+}
